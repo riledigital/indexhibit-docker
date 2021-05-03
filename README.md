@@ -2,11 +2,12 @@
 
 A simple Dockerized version of Indexhibit, created for educational purposes.
 
-**Do not use this for production.** This Docker setup is created primarily for
-educational purposes, for those curious to explore the history of Web CMS's.
-These settings are the bare minimum to get Indexhibit running in a Docker
-environment and have been created for zero disregard for the application's
-security. You have been warned!
+# Caveat emptor: **Do not use this for production.**
+
+This Docker setup is created primarily for educational purposes, for those
+curious to explore the history of Web CMS's. These settings are the bare minimum
+to get Indexhibit running in a Docker environment and have been created for zero
+disregard for the application's security. You have been warned!
 
 This is an unofficial project and is not endorsed by any of the creators of
 Indexhibit.
@@ -42,6 +43,9 @@ management/Web design.
   Visit `http://localhost:9095/ndxzstudio/install.php` and follow the
   directions. The MySQL information is located in `docker-compose.yml`, under
   the env variables section of `db`.
+
+- When you are done with exploring, run `make uninstall` to kill and remove the
+  containers.
 
 ## More on Indexhibit
 
