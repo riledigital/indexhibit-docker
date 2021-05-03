@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 9091,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "name": "idx",
+            "database": "indexhibit",
+            "username": "admin"
+        }
+    ]
+}

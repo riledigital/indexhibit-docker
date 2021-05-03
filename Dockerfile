@@ -1,4 +1,4 @@
-FROM php:8.0.5-apache-buster
+FROM php:7.4-apache-buster
 RUN docker-php-ext-install mysqli
 RUN docker-php-ext-enable mysqli
 WORKDIR /var/www/html

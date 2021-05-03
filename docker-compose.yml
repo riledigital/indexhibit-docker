@@ -18,10 +18,8 @@ services:
       - "9091:3306"
     expose:
       - "3306"
-    volumes:
-      - ./db:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: indexhibit
+      MYSQL_DATABASE: db
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin

@@ -4,3 +4,6 @@ build:
 
 start:
 	docker-compose up
+
+uninstall:
+	docker-compose down
