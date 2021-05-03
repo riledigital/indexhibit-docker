@@ -1,5 +1,5 @@
-db
-www
+db/**/*
+www/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,vscode,zsh
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,vscode,zsh
@@ -72,3 +72,12 @@ zsdoc/data
 !/tests/_output/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,vscode,zsh
+
+
+# INDEXHIBIT FILES
+www/html/files
+www/html/ndxzsite/cache
+www/html/ndxzsite/img
+www/html/ndxzsite/js
+www/html/ndxzsite/mobile
+
