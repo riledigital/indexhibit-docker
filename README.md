@@ -8,6 +8,9 @@ These settings are the bare minimum to get Indexhibit running in a Docker
 environment and have been created for zero disregard for the application's
 security. You have been warned!
 
+This is an unofficial project and is not endorsed by any of the creators of
+Indexhibit.
+
 ## Why Indexhibit?
 
 Indexhibit is a content management system from the early 2000s that provided a
@@ -21,7 +24,7 @@ exhibition space. It provided a format for artists to exhibit archives of their
 work on the Web, and probably had an large influence on modern content
 management/Web design.
 
-## Getting Started
+## Setup Directions
 
 - Clone this repo.
 
@@ -39,3 +42,8 @@ management/Web design.
   Visit `http://localhost:9095/ndxzstudio/install.php` and follow the
   directions. The MySQL information is located in `docker-compose.yml`, under
   the env variables section of `db`.
+
+## More on Indexhibit
+
+- [Indexhibit.org](https://www.indexhibit.org/)
+- [Indexhibit forums](https://forum.indexhibit.org/)
